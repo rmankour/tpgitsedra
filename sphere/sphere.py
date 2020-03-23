@@ -41,7 +41,7 @@ class Sphere(object):
 def loadSphere(filename):
     # *** STEP 7 ***
     # uncomment the 3 following line
-    #with open(filename, "r") as f:
-    #    sphere = pickle.load(f)
-    #    return sphere
+    with open(filename, "r") as f:
+        sphere = pickle.load(f)
+        return sphere
     pass
