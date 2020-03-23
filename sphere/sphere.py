@@ -34,8 +34,8 @@ class Sphere(object):
     def dump(self, filename):
         # *** STEP 6 ***
         # uncomment the 2 following line
-        #with open(filename, "w") as f:
-        #    pickle.dump(self, f)
+        with open(filename, "w") as f:
+            pickle.dump(self, f)
         pass
 
 def loadSphere(filename):
